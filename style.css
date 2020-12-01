@@ -40,9 +40,13 @@ article {
 }
 
 
-header {
-    color: skyblue;
-    text-align: center;
+.mainText {
+    background-color: lightyellow;
+    padding: 8px;
+    padding-bottom: 4px;
+    border: 2px dashed black;
+    margin: 8px;
+    margin-bottom: 4px;
 }
 
 
@@ -79,6 +83,7 @@ h1 {
     margin-right: 2px;
     margin-bottom: 0px;
     font-family: 'papyrus', fantasy;
+    text-align: center;
 }
 
 .paragraphLeft {
