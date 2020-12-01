@@ -31,6 +31,12 @@ article {
     margin: 8px;
     margin-bottom: 4px;
     clear: both;
+    float: left;
+}
+
+
+.floatNone {
+    float: none;
 }
 
 
@@ -44,7 +50,7 @@ header {
 /* specifieke stijlen */
 
 img {
-    width: 150px;
+    width: 20%;
 }
 
 img.floatLeft {
@@ -58,7 +64,11 @@ img.floatRight {
 }
 
 img.overleden {
-    width: 45%
+    width: 50%
+}
+
+img.side {
+    width: 40%;
 }
 
 h1 {
@@ -74,12 +84,14 @@ h1 {
 .paragraphLeft {
     float: left;
     width: calc(60% - 36px);
+    clear: none;
 }
 
 .paragraphRight {
     float: right;
     width: calc(40% - 36px);
     overflow-x: auto;
+    clear: none;
 }
 
 a {
