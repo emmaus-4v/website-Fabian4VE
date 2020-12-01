@@ -40,17 +40,27 @@ article {
 }
 
 
-header {
-    color: skyblue;
-    text-align: center;
+.mainText {
+    background-color: lightyellow;
+    padding: 8px;
+    padding-bottom: 4px;
+    border: 2px dashed black;
+    margin: 8px;
+    margin-bottom: 4px;
 }
 
 
+<<<<<<< HEAD
 
 /* specifieke stijlen */
 
 img {
     width: 20%;
+=======
+header {
+    color: skyblue;
+    text-align: center;
+>>>>>>> bd5f1d6baef1bbd2c44433fbe880de2fa447f5bf
 }
 
 img.floatLeft {
@@ -58,6 +68,7 @@ img.floatLeft {
     margin-right: 16px;
 }
 
+<<<<<<< HEAD
 img.floatRight {
     float: right;
     margin-left: 16px;
@@ -85,6 +96,21 @@ h1 {
     float: left;
     width: calc(60% - 36px);
     clear: none;
+=======
+
+/* specifieke stijlen */
+
+img.floatLeft {
+    float: left;
+    margin-right: 16px;
+    width: 25%;
+}
+
+img.floatRight {
+    float: right;
+    margin-left: 16px;
+    width: 25%;
+>>>>>>> bd5f1d6baef1bbd2c44433fbe880de2fa447f5bf
 }
 
 .paragraphRight {
