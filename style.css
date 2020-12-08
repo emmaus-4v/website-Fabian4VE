@@ -40,21 +40,10 @@ article {
 }
 
 
-.mainText {
-    background-color: lightyellow;
-    padding: 8px;
-    padding-bottom: 4px;
-    border: 2px dashed black;
-    margin: 8px;
-    margin-bottom: 4px;
-}
-
-
-
 /* specifieke stijlen */
 
 img {
-    width: 20%;
+   height: 256px;
 }
 
 img.floatLeft {
@@ -68,11 +57,7 @@ img.floatRight {
 }
 
 img.overleden {
-    width: 50%
-}
-
-img.side {
-    width: 40%;
+    height: 128px;
 }
 
 h1 {
