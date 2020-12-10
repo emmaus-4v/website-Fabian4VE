@@ -16,6 +16,21 @@ main {
     position: relative;
 }
 
+.paragraphLeft {
+    float: left;
+    width: calc(60% - 36px);
+    clear: none;
+}
+
+.paragraphRight {
+    float: right;
+    width: calc(40% - 36px);
+    overflow-x: auto;
+    clear: none;
+}
+
+
+/* tekst */
 
 article {
     text-align: justify;
@@ -34,13 +49,19 @@ article {
     float: left;
 }
 
-
-.floatNone {
-    float: none;
+h1 {
+    padding: 16px;
+    border: 4px dashed black;
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    font-family: 'papyrus', fantasy;
+    text-align: center;
 }
 
 
-/* specifieke stijlen */
+/* images */
 
 img {
    height: 256px;
@@ -60,29 +81,8 @@ img.overleden {
     height: 128px;
 }
 
-h1 {
-    padding: 16px;
-    border: 4px dashed black;
-    background-color: white;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-bottom: 0px;
-    font-family: 'papyrus', fantasy;
-    text-align: center;
-}
 
-.paragraphLeft {
-    float: left;
-    width: calc(60% - 36px);
-    clear: none;
-}
-
-.paragraphRight {
-    float: right;
-    width: calc(40% - 36px);
-    overflow-x: auto;
-    clear: none;
-}
+/* specifieke stijlen */
 
 a {
     color: skyblue;
@@ -95,6 +95,7 @@ a:hover {
 
 
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
