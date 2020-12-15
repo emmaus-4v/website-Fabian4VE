@@ -16,19 +16,6 @@ main {
     position: relative;
 }
 
-.paragraphLeft {
-    float: left;
-    width: calc(60% - 36px);
-    clear: none;
-}
-
-.paragraphRight {
-    float: right;
-    width: calc(40% - 36px);
-    overflow-x: auto;
-    clear: none;
-}
-
 
 /* tekst */
 
@@ -58,6 +45,18 @@ h1 {
     margin-bottom: 0px;
     font-family: 'papyrus', fantasy;
     text-align: center;
+}
+
+.paragraphLeft {
+    float: left;
+    width: calc(60% - 36px);
+    clear: none;
+}
+
+.paragraphRight {
+    float: right;
+    width: calc(40% - 36px);
+    clear: none;
 }
 
 
